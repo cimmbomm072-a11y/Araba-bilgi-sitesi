@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Araba Bilgi Sitesi</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f9; color: #333; }
+    header { background: #222; color: #fff; padding: 1rem; text-align: center; }
+    nav { background: #444; padding: 0.5rem; text-align: center; }
+    nav a { color: #fff; margin: 0 10px; text-decoration: none; }
+    main { padding: 2rem; max-width: 1100px; margin: 0 auto; }
+    article { background: #fff; margin-bottom: 1.5rem; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    h2 { color: #222; margin-top: 0; }
+    ul { margin-top: 0.5rem; }
+    .meta { font-size: 13px; color: #666; margin-bottom: 8px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+    .chip { display:inline-block; padding:6px 10px; border-radius:999px; background:#eee; margin:4px; font-size:13px; }
+    footer { text-align:center; padding:1rem; color:#666; font-size:14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Araba Bilgi Sitesi</h1>
+    <p>Arabalar hakkında bilgiler, tarihçe ve ipuçları</p>
+  </header>
+
+  <nav>
+    <a href="#elektrikli">Elektrikli vs Benzinli</a>
+    <a href="#markalar">Marka Kıyaslamaları</a>
+    <a href="#bakim">Bakım Rehberi</a>
+    <a href="#tarihce">Araba Tarihçesi</a>
+    <a href="#suv">SUV İncelemesi</a>
+    <a href="#yariscilar">Yarış Arabaları</a>
+  </nav>
+
+  <main>
+    <section class="grid">
+      <article id="elektrikli">
+        <h2>Elektrikli vs Benzinli Araçlar</h2>
+        <p class="meta">Kategori: Motor • Yayın: 2025-08-01</p>
+        <p>Elektrikli araçlar sessiz, çevreci ve düşük bakım maliyetine sahiptir. Benzinli araçlar ise uzun süredir piyasada olduğundan yaygın servis ağına sahiptir. Gelecek, elektrikli araçlara doğru yönelmektedir.</p>
+        <div class="chip">Elektrik</div><div class="chip">Benzin</div>
+      </article>
+
+      <article id="markalar">
+        <h2>Marka Kıyaslamaları: Mercedes vs BMW</h2>
+        <p class="meta">Kategori: Marka • Yayın: 2025-07-21</p>
+        <p>Mercedes genellikle konfor ve lüksü temsil ederken, BMW sürüş keyfi ve sportifliğiyle öne çıkar. Her iki markanın da kendine özgü kullanıcı kitlesi vardır.</p>
+        <div class="chip">Mercedes</div><div class="chip">BMW</div>
+      </article>
+
+      <article id="bakim">
+        <h2>Rutin Araç Bakımı</h2>
+        <p class="meta">Kategori: Bakım • Yayın: 2025-06-02</p>
+        <p>Aracın düzenli bakımı ömrünü uzatır. Motor yağı değişimi, lastik basınç kontrolü, frenlerin gözden geçirilmesi en temel bakım adımlarıdır.</p>
+        <ul>
+          <li>Motor yağını düzenli değiştirin.</li>
+          <li>Lastik basınçlarını ayarlayın.</li>
+          <li>Fren ve süspansiyon kontrollerini yaptırın.</li>
+        </ul>
+      </article>
+
+      <article id="tarihce">
+        <h2>Araba Tarihçesi: Ford Model T</h2>
+        <p class="meta">Kategori: Tarih • Yayın: 2025-05-10</p>
+        <p>1908 yılında üretilen Ford Model T, seri üretim sayesinde otomobili geniş kitlelere ulaştıran ilk model oldu. Modern otomotiv endüstrisinin temeli kabul edilir.</p>
+      </article>
+
+      <article id="suv">
+        <h2>SUV Araçların Avantajları ve Dezavantajları</h2>
+        <p class="meta">Kategori: Motor • Yayın: 2025-04-15</p>
+        <p>SUV'lar geniş iç hacim ve yüksek sürüş pozisyonu sunar. Ancak yakıt tüketimleri genellikle sedanlara göre daha fazladır. Aileler ve uzun yol kullanıcıları için popüler bir tercihtir.</p>
+      </article>
+
+      <article id="yariscilar">
+        <h2>Yarış Arabaları</h2>
+        <p class="meta">Kategori: Yarış • Güncelleme: 2025-09-10</p>
+        <p>Yarış arabaları hız, dayanıklılık ve performans için özel olarak tasarlanmış araçlardır. İşte bazı ana kategoriler ve kısa açıklamaları:</p>
+        <ul>
+          <li><strong>Formula 1 Araçları:</strong> Aerodinamik yapıları, ileri malzeme kullanımı ve yüksek güç/ağırlık oranlarıyla pistte maksimum performans sağlar. Süspansiyon, aerodinamik flaplar (DRS), ve karmaşık enerji geri kazanım sistemleri (ERS) içerir.</li>
+          <li><strong>Ralli Arabaları:</strong> Değişken zeminlerde (çamur, çakıl, asfalt, kar) yüksek dayanıklılık ve kontrol için güçlendirilmiş şasi, roll-cage (koruyucu kafes), özel süspansiyon ve arazi lastikleriyle donatılır.</li>
+          <li><strong>Le Mans Prototipleri (LMP):</strong> Uzun süreli dayanıklılık yarışları için optimize edilmiştir; yakıt verimliliği, aerodinamik ve sürücü konforu uzun yarışlarda önem kazanır. Genellikle hibrit sistemler kullanılır.</li>
+          <li><strong>Drag Yarış Arabaları:</strong> Çok kısa mesafede (genelde çeyrek mil) maksimum ivmelenme için tasarlanır. Güçlü motor, özel lastikler (slick), ve hafif gövde ön plandadır. Çok yüksek tork ve tekerlek tutuşu önemlidir.</li>
+        </ul>
+        <p>Kısacası, her yarış tipi farklı mühendislik çözümleri gerektirir: aerodinamik, güç-aktarım, şasi sertliği ve lastik teknolojisi başlıca farkları oluşturur.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Araba Bilgi Sitesi — Tüm içerikler örnek amaçlıdır.
+  </footer>
+</body>
+</html>
